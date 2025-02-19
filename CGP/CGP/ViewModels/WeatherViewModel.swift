@@ -11,7 +11,7 @@ class WeatherViewModel: NSObject, ObservableObject, CLLocationManagerDelegate {
     @Published var alertMessage: String = ""
     @Published var canNavigate: Bool = false
     
-    private let apiKey = "0a6b34bdd693d726dd67de4156a39c69"
+    private let apiKey = ""
     
     private var locationManager = CLLocationManager()
     private var currentLocation: CLLocation?
